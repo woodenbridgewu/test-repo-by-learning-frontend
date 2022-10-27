@@ -43,6 +43,16 @@
   background-color: darkgray;
   color: black;
 }
+.container .about-me .links {
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.container .about-me .links a img {
+  width: 40px;
+  height: 40px;
+}
 .container .my-pic {
   width: 50%;
   display: flex;
