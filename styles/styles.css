@@ -3,4 +3,49 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.container .about-me {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .about-me h1 {
+  line-height: 2;
+  font-weight: bolder;
+}
+.container .about-me h1 .scott {
+  color: rgb(61, 187, 116);
+}
+.container .about-me button {
+  width: 200px;
+  height: 40px;
+  margin: 15px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+.container .about-me button:hover {
+  cursor: pointer;
+  background-color: darkgray;
+  color: black;
+}
+.container .my-pic {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .my-pic img {
+  width: 600px;
+  height: 450px;
 }/*# sourceMappingURL=styles.css.map */
